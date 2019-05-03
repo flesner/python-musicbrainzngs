@@ -233,7 +233,7 @@ def parse_artist_list(al):
 
 def parse_artist(artist):
     result = {}
-    attribs = ["id", "type", "ext:score"]
+    attribs = ["id", "type", "ext:score", "type-id"]
     elements = ["name", "sort-name", "country", "user-rating",
                 "disambiguation", "gender", "ipi"]
     inner_els = {"area": parse_area,
